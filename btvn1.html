@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .img{
+            background-color: aqua;
+            width: 430px;
+            border-radius: 5px;
+            height: 150px;
+       }
+       .web{
+            display: flex;
+            width: 100%;
+            height: 100px;
+            gap:15px;
+       }
+       .title_web{
+            text-align: center;
+            font-size: 20px;
+       }
+       .html{
+            background-color: darkred;
+            width: 150px;
+            color: white;
+            border-radius: 5px;
+            height: 100%;
+            margin: 5px;
+            padding: 20px;
+            font-size: 20px;
+       }
+       .css{
+            background-color: blue;
+            width: 150px;
+            color: white;
+            border-radius: 5px;
+            height: 100%;
+            margin: 5px;
+            padding: 20px;
+            font-size: 20px;
+       }
+       .js{
+            background-color: green;
+            width: 150px;
+            color: white;
+            border-radius: 5px;
+            height: 100%;
+            margin: 5px;
+            padding: 20px;
+            font-size: 20px;
+       }
+       table{
+            border: 1px solid black;
+            border-collapse: collapse;
+       }
+       th, td{
+            border: 1px solid black;
+       }
+       .t3{
+        text-decoration: line-through;
+       }
+       footer{
+        padding: 20px;
+       }
+    </style>
+</head>
+<body>
+    <header><h1>Web private 2026</h1></header>
+    <main>
+        <p>Cùng học, thực hành và xây dựng trang web đầu tiên của bạn</p>
+        <div class="menu">
+            <a href="#">Giới thiệu</a>
+            <a href="#">Nội dung học</a>
+            <a href="#">Lịch học</a>
+            <a href="#">Đăng kí</a>
+        </div>
+        <h2>Giới thiệu</h2>
+        <p>Lớp học dành cho những bạn <b>chưa có kinh nghiệm lập trình Web.</b></p><br>
+        <p>Bạn sẽ <i>tự tay thực hành </i>để hiểu cách tạo một trang web, bắt đầu với <mark>HTML cơ bản.</mark></p>
+        <div class="img">
+            <div class="title_web">Trang web đầu tiên</div>
+            <div class="web">
+                <div class="html">HTML Cấu trúc</div>
+                <div class="css">CSS <br> Giao diện</div>
+                <div class="js">JavaScript Tương tác</div>
+            </div>
+        </div>
+        <div class="detail">Ba thành phần cơ bản của một trang web</div>
+        <p>Tham khảo <a href="#">tài liệu HTML trên MDN</a></p>
+        <h3>Quan sát Block và Inline</h3>
+        <div>Đây là khối nội dung thứ nhất</div>
+        <div>Đây là khối nội dung thứ hai</div>
+        <span>Đây là nội dung inline thứ nhất</span>
+        <span>Đây là nội dung inline thứ hai</span>
+        <h2>Nội dung học</h2>
+        <ul>
+            <li>HTML: Xây dựng cấu trúc và nội dung trang</li>
+            <li>CSS: Định dạng giao diện trang</li>
+            <li>JavaScript: Tạo tương tác trên trang</li>
+        </ul>
+        <h3>Các bước tham gia</h3>
+        <ol>
+            <li>Đọc thông tin và lịch học</li>
+            <li>Điền biểu mẫu đăng kí</li>
+            <li>Chuẩn bị laptop và tham gia buổi học đầu tiên</li>
+        </ol>
+        <h3>Thông báo khai giảng</h3>
+        <p>Lịch khai giảng chuyển từ <span class="t3">Thứ Ba</span> sang <b>Thứ Hai</b></p><br>
+        <p>Hãy đến trước giờ học 15 phút để kiểm tra công cụ</p>
+        <h2>Lịch học</h2>
+        <div class="title">Lịch học ba buổi đầu tiên</div>
+        <table>
+            <tr>
+                <th>Buổi</th>
+                <th>Nội dung</th>
+                <th>Thời lượng</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td>Cài đặt công cụ và Git</td>
+                <td>2 giờ</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>HTML cơ bản</td>
+                <td>2 giờ</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td>CSS cơ bản</td>
+                <td>2 giờ</td>
+            </tr>
+            <tr>
+                <th colspan="2">Tổng thời lượng</th>
+                <td>6 giờ</td>
+            </tr>
+        </table>
+        <h2>Đăng kí tham gia</h2>
+        <p>Biểu mẫu thực hành, chưa có chức năng lưu đăng kí. Hãy dùng dữ liệu giả để thử</p>
+        <form>
+            <fieldset>
+                <legend>Thông tin học viên</legend>
+                <p>
+                    <label for="name">Họ và tên (bắt buộc):</label>
+                    <input type="text" name="name" id="name" required>
+                </p>
+                <p>
+                    <label for="email">Email (bắt buộc):</label>
+                    <input type="email" name="email" id="email" required>
+                </p>
+                <p>
+                    <label for="level">Trình độ:</label>
+                    <select name="level" id="level">
+                        <option value="new">Mới bắt đầu</option>
+                        <option value="basic">Đã biết cơ bản</option>
+                    </select>
+                </p>
+            </fieldset>
+        </form>
+        <br>
+        <form>
+            <fieldset>
+                <legend>Nguyện vọng học tập</legend>
+                <p>Ca học mong muốn:</p>
+                <label><input type="radio" name="tiet" id="sang">Buổi sáng</label>
+                <label><input type="radio" name="tiet" id="toi">Buổi tối</label>
+                <p>
+                    <label for="nguyenvong">Mong muốn khi tham gia:</label>
+                    <textarea name="nguyenvong" id="nguyenvong" rows="3"></textarea>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" name="practice" id="yes">
+                        Tôi muốn tham gia buổi thực hành
+                    </label>
+                </p>
+            </fieldset>
+        </form>
+        <br>
+        <button type="button">Đăng kí</button>
+        <h2>Nhắc nhở</h2>
+        <p>Chuẩn bị laptop và cài đặt VS Code trước khi lên lớp</p>
+        <div>Người thực hiện: Nguyễn Văn A</div>
+        <div>Email minh họa: an@example.cm</div>
+    </main>
+    <footer>
+        © 2026 Lớp học Web. Bài thực hành HTML cơ bản.
+    </footer>
+</body>
+</html>
