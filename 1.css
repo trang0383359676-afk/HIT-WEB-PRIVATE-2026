@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+}
+.logo{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    width: 10px;
+}
+.menu1{
+    display: flex;
+    gap: 7px;
+}
+.menu1 ul{
+    list-style: none;
+}
+.menu1 ul li{
+    display: inline-block;
+}
+.menu1 a{
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-size: 17px;
+    font-weight: bold;
+}
+.menu1 ul li:first-child{
+    color: black;
+    border-bottom: 1px solid black;
+}
+.dangky button{
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: black;
+    padding: 7px;
+    border-radius: 10px;
+    margin: 7px;
+}
+
+.dau{
+    height: 600px;
+    background-image: url(culinary.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 300px;
+}
+.title{
+    color:aliceblue;
+    font-size: 80px;
+    text-align: center;
+}
+.detail{
+    color:aliceblue;
+    text-align: center;
+}
+.chan{
+    color: aliceblue;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+}
+.giua{
+    display: flex;
+    align-items: center;
+    height: 600px;
+    background-color: lightgrey;
+}
+.left{
+    width: 500px;
+    margin: 200px;
+}
+.khampha{
+    font-weight: bold;
+    border: 1px solid none;
+    border-radius: 10px;
+    background-color: gray;
+    text-align: center;
+    width: 100px;
+}
+.left h1{
+    margin: 20px;
+    font-weight: bold;
+}
+.detail2{
+    color:black;
+}
+.left button{
+    margin: 15px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    font-weight: bold;
+}
+.right{
+    border: 1px solid none;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+}
+.menu2 ul{
+    list-style: none;
+}
+.menu2 li{
+    display: flex;
+    gap: 10px;
+    height: 55px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+.menu2 li:last-child{
+    border-bottom: none;
+}
+.menu2 a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.menu2 li:hover{
+    background-color: lightgrey;
+}
+.cuoi{
+    width: 80%;
+    margin-left: 100px;
+}
+.tieude{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+.btn button{
+    border-radius: 100%;
+    padding: 8px;
+    border:none;
+}
+.btn .fa-solid{
+    color: grey;
+}
+.chitiet{
+    display: flex;
+    gap: 150px;
+}
+.sp{
+    border-radius: 10px;
+    width: 500px;
+}
+.sp img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+.sp .time{
+    color: gray;
+    margin: 20px;
+}
+.sp button{
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    width: 450px;
+    padding: 5px;
+}

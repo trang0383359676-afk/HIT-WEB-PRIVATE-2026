@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: pink;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: palevioletred;
+    border-radius: 10px;
+   
+}
+img{
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.name{
+    text-align: center;
+    font-weight: bold;
+    color: darkred;
+    font-size: 20px;
+}
+.title{
+    text-align: center;
+    margin: 7px;
+    color:yellow;
+    font-weight: bold;
+}
+.detail{
+    text-align: center;
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+.fa-brands{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+}
+.fa-regular{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+}
